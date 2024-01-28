@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MADHUBAN</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0\css\font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+
+<body>
+    <!-- ------------------------navbar------------------------------- -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">HOTEL</a>
+            <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#togicon">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="togicon">
+            <ul class="navbar-nav " data-bs-auto-closed="outside">
+            
+                <li class="nav-item mx-2"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#Rooms">Rooms</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#Services">Services</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#imag">Team</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#Gallery">Gallery</a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#Price"> Price </a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#Contact"> Contact </a></li>
+                <li class="nav-item mx-2"><a class="nav-link" href="#"data-bs-toggle="modal" data-bs-target="#certi" id="book">Contact_Us</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- ------------------------navbar--end----------------------------- -->
+
+    <!-- -------------------------home------------------------------------- -->
+    <div class="container-fluid" id="home">
+        <!-- ---------------------------------carousel------------------------------- -->
+        <div class="carousel carousel-white slide d-none d-lg-block" data-bs-ride="carousel" id="carslide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/2nd-slide.jpeg " class='d-block w-100 h-100' alt="Image">
+                    <div class="carousel-caption mt-5 ">
+                        <h5>WELCOME IN HOTEL <SPAN>MADHUBAN </SPAN></h5>
+                        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis eaque sunt, incidunt quidem
+                            perferendis natus dicta ipsa rem quibusdam dolores accusamus, ad dolorem maiores. Corrupti
+                            earum, necessitatibus molestiae ab culpa distinctio nesciunt tempore ut voluptatum placeat
+                            ullam eius, excepturi molestias.
+                        </P>
+                        <a href="#" class="btn btn-danger" onclick=" checkavaibility()">Check Avaibility</a>
+
+                    </div>
+                </div>
+                s
+                <div class="carousel-item">
+                    <img src="./images/2nd-slide.jpeg " class='d-block w-100 h-100' alt="Image">
+
+                    <div class="carousel-caption mt-5 ">
+
+                        <h5>WELCOME IN HOTEL <SPAN>MADHUBAN </SPAN></h5>
+                        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis eaque sunt, incidunt quidem
+                            perferendis natus dicta ipsa rem quibusdam dolores accusamus, ad dolorem maiores. Corrupti
+                            earum, necessitatibus molestiae ab culpa distinctio nesciunt tempore ut voluptatum placeat
+                            ullam eius, excepturi molestias.
+                        </P>
+                        <a href="#" class="btn btn-danger">Check Avaibility</a>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev d-none d-lg-block" type="button" data-bs-target="#carslide"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class=" carousel-control-next d-none d-lg-block" type="button" data-bs-target="#carslide"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+    <!-- ------------------------------------jummbotron---------------------------- -->
+    <div class="row active  bg-primary text-white-rounded m-0  p-5 d-block d-lg-none" id="jumbo">
+        <div class="container mt-5 mb-5">
+            <h5>WELCOME IN HOTEL <SPAN>MADHUBAN</SPAN></h5>
+            <h1 class="text-white"> Enjoy Your Day </h1>
+
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est temporibus nisi blanditiis id quos sit
+                saepe quae repellendus quasi maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+                repudiandae facilis eos facere et pariatur numquam. Dolorum corrupti doloremque ipsum. </p>
+            <a href="#" class="btn btn-default" onclick=" checkavaibility()"> Check Avaibility </button></a>
+        </div>
+
+    </div>
+    <!-- -------------------------jumbotron--end----------------------------------- -->
+    </div>
+    <!-- -------------------------home--end----------------------------------- -->
+    <!-- ----------------------------------------about------------------------------ -->
+    <div class="container mt-2" id="about">
+        <div class="row ">
+
+            <div class="col-lg-7 mt-5">
+                <h5>Welcome to <span> hotel the haven </span> of your weekend </h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellendus tempora ducimus facere
+                    ab voluptates repellat dolor corporis ipsum inventore, aut labore magnam, illum rerum similique illo
+                    harum assumenda facilis cumque praesentium cum culpa! Sunt fugiat inventore recusandae omnis ipsam,
+                    eum consequuntur exercitationem officiis hic temporibus! Laboriosam, temporibus sunt? Odio.
+                </p>
+
+                <a href="#about" class="btn btn-default"> Explore </a>
+            </div>
+            <div class="col-lg-5 mt-5">
+                <img src="./images/1st-slide.jpeg" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ----------------------------------------about-end----------------------------- -->
+    <!-- ----------------------------------------rooms----------------------------- -->
+
+    <div class="container-fluid pt-5 " id="Rooms">
+        <div class="row mt-5">
+            <h5> Our Favourite <span> Rooms </span>
+                <p>-----------------</p>
+            </h5>
+            <div class="col-lg-4 col-md-5 mt-3" id="one">
+                <div class="a">
+                    <h3> Hotel <span>Madhuban</span></h3>
+                    <p>Lorem ipsum dolor sitesqq amet consectetur adipisicing elit. Exercitationem assumenda excepturi,
+                        ducimus nam totam incidunt voluptatem. Consectetur tempora illo accusamus?</p>
+                    <h4><span>RS: 4000 </span> / Per Night</h4>
+
+                    <a href="#"data-bs-toggle="modal" data-bs-target="#certi" class="btn btn-default"> EXPLORE_NOW </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-7 mt-3" id="two">
+                <div class="a ">
+                    <h3> Hotel <span>Madhuban</span></h3>
+                    <p>Lorem ipsum dolor sitesqq amet consectetur adipisicing elit. Exercitationem assumenda excepturi,
+                        ducimus nam totam incidunt voluptatem. Consectetur tempora illo accusamus?</p>
+                    <h4><span>RS: 3500 </span> / Per Night</h4>
+
+                   <a href="#"data-bs-toggle="modal" data-bs-target="#certi" class="btn btn-default"> EXPLORE_NOW </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mt-3" id="three">
+                <div class="a">
+                    <h3> Hotel <span>Madhuban</span></h3>
+                    <p>Lorem ipsum dolor sitesqq amet consectetur adipisicing elit. Exercitationem assumenda excepturi,
+                        ducimus nam totam incidunt voluptatem. Consectetur tempora illo accusamus?</p>
+                    <h4><span>RS: 5000 </span> / Per Night</h4>
+                    <a href="#"data-bs-toggle="modal" data-bs-target="#certi" class="btn btn-default"> EXPLORE_NOW </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------------Rooms-end----------------------------- -->
+    <!-- ----------------------------------------Services----------------------------- -->
+
+    <div class="container pt-5" id="Services">
+        <div class="row">
+            <h5> Our Awesome <span> Services </span>
+                <p>-----------------</p>
+            </h5>
+            <div class="col-lg-7 mt-3">
+                <img src="./images/spa3.jpeg" alt="" id="pic">
+
+            </div>
+            <div class="col-lg-5 mt-3">
+                <div class="a">
+                    <a href="#Services" onclick="spa()">
+                        <h4> Spa , beauty and Health </h4>
+                        <p><span> Spa and beauty </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                            laudantium, quisquam quis earum, itaque magni eius, praesentium aspernatur architecto
+                            facilis
+                            pariatur tempore veritatis quas reprehenderit.</p>
+                    </a>
+
+                    <a href="#Services" onclick="restro()">
+                        <h4> Restaurant </h4>
+                        <p><span>Restaurant</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                            laudantium,
+                            quisquam quis earum, itaque magni eius, praesentium aspernatur architecto facilis pariatur
+                            tempore
+                            veritatis quas reprehenderit.</p>
+                    </a>
+
+                    <a href="#Services" onclick="pool()">
+                        <h4> Swimming Pool </h4>
+                        <p><span> Swimming Pool </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                            laudantium,
+                            quisquam quis earum, itaque magni eius, praesentium aspernatur architecto facilis pariatur
+                            tempore
+                            veritatis quas reprehenderit.</p>
+                    </a>
+
+
+                    <a href="#Services" onclick="movie()">
+                        <h4> Movie Theater </h4>
+                        <p><span> Movie Theater </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                            laudantium,
+                            quisquam quis earum, itaque magni eius, praesentium aspernatur architecto facilis pariatur
+                            tempore
+                            veritatis quas reprehenderit.</p>
+                    </a>
+
+
+                    <a href="#Services" onclick="club()">
+                        <h4> Night Club </h4>
+                        <p><span> Night Club </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                            laudantium,
+                            quisquam quis earum, itaque magni eius, praesentium aspernatur architecto facilis pariatur
+                            tempore
+                            veritatis quas reprehenderit.</p>
+                    </a>
+
+                    <a href="#Services" onclick="hall()">
+                        <h4> Conference Hall </h4>
+                        <p><span> Conference Hall </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                            laudantium,
+                            quisquam quis earum, itaque magni eius, praesentium aspernatur architecto facilis pariatur
+                            tempore
+                            veritatis quas reprehenderit.</p>
+                    </a>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------Services-end----------------------------- -->
+
+    <!-- ----------------------------------------Team----------------------------- -->
+ <div class="container pt-5" id="imag">
+        <div class="row">
+            <h5> Our Special <span> Staff </span>
+                <p>-----------------</p>
+            </h5>
+            <div class="col-lg-3 col-md-7">
+                <div class="a">
+                    <img src="./images/manager.jpg" alt="" id="pic">
+                  
+                        <div class="c">
+                             <ul class="socialicon">
+                                  <a href="#"><i class="fa fa-facebook p-4"></i></a>  
+                                   <a href="#"><i class="fa fa-instagram p-4"></i></a> 
+                                   <a href="#"><i class="fa fa-twitter p-4"></i></a> 
+                                   <a href="#"><i class="fa fa-youtube p-4"></i></a> 
+                            </ul>
+                        </div>
+                       
+                         <div class="b">
+                             <h5>Deepak Kumar</h5>
+                            <h6>Hotel Manager</h6>
+                        
+                         </div>
+                    
+                  
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5">
+                <div class="a">
+                    <img src="./images/receptionist2.webp" alt="" id="pic">
+                    
+                        <div class="c">
+                             <ul class="socialicon">
+                                  <a href="#"><i class="fa fa-facebook p-4"></i></a>  
+                                   <a href="#"><i class="fa fa-instagram p-4"></i></a> 
+                                   <a href="#"><i class="fa fa-twitter p-4"></i></a> 
+                                   <a href="#"><i class="fa fa-youtube p-4"></i></a> 
+                            </ul>
+                        </div>
+                       
+                         <div class="b">
+                             <h5>Chandani Sinha</h5>
+                            <h6>Chief Receptionist</h6>
+                        
+                         </div>
+                    
+                  
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5">
+                <div class="a">
+                    <img src="./images/chef.webp" alt="" id="pic">
+                  
+                        <div class="c">
+                             <ul class="socialicon">
+                                  <a href="#"><i class="fa fa-facebook p-4"></i></a>  
+                                   <a href="#"><i class="fa fa-instagram p-4"></i></a> 
+                                   <a href="#"><i class="fa fa-twitter p-4"></i></a> 
+                                   <a href="#"><i class="fa fa-youtube p-4"></i></a> 
+                            </ul>
+                        </div>
+                       
+                         <div class="b">
+                             <h5>Toom Cook</h5>
+                            <h6>Master Chef</h6>
+                        
+                         </div>
+                    
+                  
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-7">
+                <div class="a">
+                    <img src="./images/housekeeping.jpg" alt="" id="pic">
+                    
+                        <div class="c">
+                             <ul class="socialicon">
+                                  <a href="#"><i class="fa fa-facebook p-4"></i></a>  
+                                   <a href="#"><i class="fa fa-instagram p-4"></i></a> 
+                                   <a href="#"><i class="fa fa-twitter p-4"></i></a> 
+                                   <a href="#"><i class="fa fa-youtube p-4"></i></a> 
+                            </ul>
+                        </div>
+                       
+                         <div class="b">
+                             <h5>Dhrithi Jha</h5>
+                            <h6>House Keeping</h6>
+                        
+                         </div>
+                    
+                  
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!-- ----------------------------------------Team-end----------------------------- -->
+
+    <!-- ----------------------------------------Gallery----------------------------- -->
+
+    <div class="container pt-5" id="Gallery">
+        <div class="row">
+            <h5> Our <span> Gallery </span>
+                <p>-----------------</p>
+            </h5>
+            <div class="col-lg-3 col-md-6">
+                <img src="./images/r1.jpeg" class="rounded-circle" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="./images/r2.webp" class="rounded-circle" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="./images/s1.jpeg" class="rounded-circle" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="./images/s2.jpeg" class="rounded-circle" alt="">
+            </div>
+            <!-- <div class="a"> -->
+            <div class="col-lg-3 col-md-6 ">
+                <img src="./images/spa1.webp" class="rounded-circle" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="./images/spa2.webp" class="rounded-circle" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="./images/spa3.jpeg" class="rounded-circle" alt="">
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="./images/1st-slide.jpeg" class="rounded-circle" alt="">
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+
+    <!-- ----------------------------------------Galley-end----------------------------- -->
+
+
+    <!-- ----------------------------------------Price------------------------------------ -->
+
+
+    <div class="container pt-5 mb-4" id="Price">
+        <div class="row">
+            <h5> Our <span> Pricing </span>
+                <p>-----------------</p>
+            </h5>
+            <div class="col-lg-3 col-md-7 mb-3">
+                <div class="a">
+                    <h4> Our Special Packages </h4>
+                    <h6>All Activity Available in this Package</h6>
+                        <h6>With Room</h6>
+                            <h6>With Meal,Snacks</h6>
+
+                                <hr>
+                                <p> <span>Rs : 15000</span> / 48hrs</p>
+                                <a href="#"data-bs-toggle="modal" data-bs-target="#certi"  class="btn btn-default">Explre_Now </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-5 mb-3">
+                <div class="a">
+                    <h4> Our Special Packages </h6>
+                    <h6>All Activity Available in this Package</h6>
+                        <h6>With Room</h6>
+                            <h6>Without Meal,Snacks</h6>
+
+                                <hr>
+                                <p> <span>Rs : 12000</span> / 48hrs</p>
+                                <a href="#"data-bs-toggle="modal" data-bs-target="#certi"  class="btn btn-default"> Explre_Now </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="a">
+                    <h4> Our Special Packages </h4>
+                    <h6>All Activity Available in this Package</h6>
+                        <h6>Without Room</h6>
+                            <h6>Without Meal,Snacks</h6>
+
+                                <hr>
+                                <p> <span>Rs : 7000</span> / 48hrs</p>
+                                <a href="#"data-bs-toggle="modal" data-bs-target="#certi"  class="btn btn-default"> Explre_Now </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="a">
+                    <h4> Our Special Packages </h4>
+                    <h6> Book Room With no Activity</h6>
+                        <h6>Without food</h6>
+                            <h6>Book Activity Offline too</h6>
+
+                                <hr>
+                                <p> <span>Rs : 3000</span> / 24hrs</p>
+                                <a href="#"data-bs-toggle="modal" data-bs-target="#certi" class="btn btn-default"> Explre_Now </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------Price--end---------------------------------- -->
+
+    <!-- ---------------------------------Contact------------------------- -->
+
+    <div class="container pt-5 mb-4" id="Contact">
+        <div class="row">
+            <h5><span> Contact </span>Us
+                <p>-----------------</p>
+            </h5>
+            <div class="col-lg-6 col-md-6">
+                <h3> Hotel Location </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elitlorem Lorem ipsum dolor sit. 
+            </p>
+            <h6><i class="fa fa-home"></i> Badarpur Border Near toll plaza besides Bharat Petroleum</h6>
+            <h6><i class="fa fa-phone"></i> +1222 4545 / +91 9685954201</h6>
+            <h6><i class="fa fa-envelope-open"></i> HotelMadhuban108@gmail.com</h6>
+
+            </div>
+            <div class="col-lg-6 col-md-6" id="styl">
+                <h3> Hotel Location Score</h3>
+                <p>
+                    <span>Great</span> location overall for sightseeing,Fun,Dining,and getting around.
+                </p>
+                <h6><i class="fa fa-camera"></i><span> 4.7  Excellent</span> for proximity to things to do</h6>
+                <h6><i class="fa fa-train"></i> <span> 3.8  Great</span> for proximity to transit</h6>
+                <h6><i class="fa fa-plane"></i><span> 4.0  Great</span> for airport access</h6>
+                <h4><span>Note :- </span>Scores are calculated based on data from Google Maps and Google reviews.</h4>
+            </div>
+         
+        </div>
+    </div>
+    <!-- ---------------------------------Contact end------------------------- -->
+ <!-- ---------------------------------Footer------------------------- -->
+ <div class="container mt-4" id="foot">
+    <h2><span>Stay</span>Connected</h2><br>
+    <div class="row">
+        <div class="a">
+            <p>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram mx-1"></i>
+                <i class="fa fa-linkedin mx-1"></i>
+                <i class="fa fa-twitter"></i>
+            </p>
+        </div>
+        <h5 class="fa fa-copyright" id="copy"> All Copyright Reserved <span> Hotel Madhuban </span></h5>
+
+        <h6 class="mb-4"> Designed By :- Deepak Kumar</h6><br>
+    </div>
+</div>
+
+
+<!-- -------------------------Book Now--------------------- -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="modal" id="certi">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" style="text-align:center;">Fill This</h1>
+                                <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                    aria-label="close"></button>
+                            </div>
+                            <form method="get">
+                            <div class="modal-body">
+                                <div class="form-group mt-2">
+                                    <div class="input-group">
+
+                                        <input type="text" name="name" placeholder="Enter Name" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group mt-4">
+
+                                        <input type="Email" name="email" placeholder="Enter Email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group mt-2">
+                                    <div class="input-group mt-4">
+
+                                        <input type="text" name="mob" placeholder="Your Mobile Number"
+                                            class="form-control">
+                                    </div>
+                                </div>
+                               
+                                <div class="form-group">
+                                    <div class="input-group mt-4">
+
+                                        <input type="text" name="Branch" placeholder="Branch Name" class="form-control">
+
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mt-4">
+
+                                        <input type="text" name="ID Num" placeholder="ID Number" class="form-control">
+
+                                    </div>
+                                </div>
+                            
+
+                                <div class="form-group ">
+                                    <div class="input-group mt-4">
+
+                                        <!-- <input type="text"  placeholder="Write Message" class="form-control"> -->
+                                        <textarea name=" Message" class="form-control" placeholder="Write Others Details"
+                                            rows="7"></textarea>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button class="btn btn-danger" type="submit">Submit</button>
+
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- ---------------------------------Footer------------------------- -->
+
+        <marquee behavior="scroll" scrollamount="10" direction="left"><h5> For any type of booking (Marraige,Reception,Seminar etc...) Contact Us :-  <i class="fa fa-envelope-open "></i> HotelMadhuban108@gmail.com ,  <i class="fa fa-phone "></i> +1222 4545 / +91 9685954201 <span> Thanks a lot for visiting. </span> </h5></marquee>
+
+
+
+    <!-- ----------------------------javascript---------------- -->
+    <script src="./hotel.js"></script>
+</body>
+
+</html>

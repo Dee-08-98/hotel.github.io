@@ -1,0 +1,763 @@
+.navbar-dark .navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: 0px 0px 2px black;
+    background-color: black;
+    padding: 0px 15px;
+
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: 0px 0px 2px black;
+
+
+}
+
+.navbar-dark .navbar-toggler {
+    color: #000000;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav li:hover {
+    color: rgb(255, 254, 253);
+    background-color: rgb(141, 66, 0);
+    border-radius: 10px;
+
+}
+
+#book {
+    padding-right: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+@media(width>=1200px) {
+    .navbar-brand {
+        margin-left: 70px;
+    }
+
+    .navbar-nav {
+        margin-right: 70px;
+    }
+
+}
+
+@media(width<991px) {
+    .navbar-brand {
+        margin-left: 30px;
+    }
+
+    .navbar-toggler {
+        margin-right: 30px;
+    }
+
+}
+
+/* -----------------------------navbar end----------------------------------------- */
+/* --------------------------------home--------------------------------------- */
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    /* background-image: url('./images/2nd-slide.jpeg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%; */
+
+}
+
+.carousel-caption {
+    text-align: center;
+    /* bottom: 220px; */
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+
+}
+
+.carousel-caption h1 {
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+
+.carousel-caption h5 span {
+    color: red;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    background-color: darkorange;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+}
+
+.carousel-caption a:hover {
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 1.50s;
+}
+
+/* ---------------------------------------------------------------------- */
+
+#jumbo {
+
+    background-image: url('./images/2nd-slide.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    text-align: center;
+  /*  margin-top: 85px;
+  margin-lef: 10px;*/
+/*  margin-right: 100px;*/
+
+
+}
+
+#jumbo .container h5 {
+    font-size: 45px;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+
+}
+
+#jumbo .container h1 {
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+
+#jumbo .container h5 span {
+    color: red;
+}
+
+#jumbo .container p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #aeff00;
+}
+
+#jumbo .container a {
+    text-decoration: none;
+    background-color: darkorange;
+    color: black;
+    font-weight: bold;
+    padding: 8px 0px;*/
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 10px;
+    transition: 0.55s;
+    width: 165px;
+
+}
+
+#jumbo .container a:hover {
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 175px;
+transform: translateX(10px);
+
+}
+
+/* --------------------------------home-end-------------------------------------- */
+/* ------------------------------------about---------------------------- */
+#about {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#about .row .col-lg-7 h5 {
+    font-size: 35px;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px black;
+}
+
+#about .row .col-lg-7 h5 span {
+    color: #e4b702;
+}
+
+#about .row .col-lg-7 p {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#about .row .col-lg-7 a {
+    text-decoration: none;
+    background-color: darkorange;
+    color: black;
+    font-weight: bold;
+    width: 130px;
+    padding: 8px 0px;
+    letter-spacing: 1px;
+   
+    margin-top: 20px;
+}
+
+#about .row .col-lg-7 a:hover {
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.50s;
+    
+}
+
+#about .row .col-lg-5 {
+    height: 300px;
+}
+
+#about .row .col-lg-5 img {
+    height: 100%;
+    width: 100%;
+}
+
+/* ------------------------------------about--end-------------------------- */
+/* ------------------------------------rooms-------------------------- */
+#Rooms {
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+#Rooms .row {
+    margin-top: 50px;
+}
+
+#Rooms .row #two {
+    background-image: url('./images/r1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 550px;
+    border: 10px solid white;
+    position: relative;
+}
+#Rooms .row #one{
+    background-image: url('./images/s1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 550px;
+    border: 10px solid white;
+    position: relative;
+
+}
+#Rooms .row #three{
+    background-image: url('./images/r2.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 550px;
+    border: 10px solid white;
+    position: relative;
+}
+
+
+#Rooms .row h5 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#Rooms .row h5 p {
+    color: #ee0d0d;
+}
+
+#Rooms .row h5 span {
+    color: #e4b702;
+}
+
+#Rooms .row .col-lg-4 .a {
+    border: 3px solid white;
+   
+    color: rgb(255, 255, 255);
+     padding: 45px 0px; 
+    background-color: #000;
+    opacity: 0.7;
+    margin-right: 15px;
+    padding-left: 15px;
+    position: absolute;
+     top: 50%;
+    transform: translateY(-50%);
+}
+
+#Rooms .row .col-lg-4 .a h3 {
+    font-size: 35px;
+    font-weight: 550px;
+    text-shadow: 0px 0px 1px black;
+}
+
+#Rooms .row .col-lg-4 .a h3 span {
+    color: #e4b702;
+
+}
+
+#Rooms .row .col-lg-4 .a p {
+    font-weight: 600;
+   
+}
+
+
+#Rooms .row .col-lg-4 .a h4{
+    font-weight: 600;
+    font-size: 27px;
+   
+}
+#Rooms .row .col-lg-4 .a h4 span{
+    color: #e4b702;
+   
+}
+
+#Rooms .row .col-lg-4 .a a {
+    text-decoration: none;
+    background-color: darkorange;
+    color: black;
+    font-weight: bold;
+    width: 160px;
+    text-align: center;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 0px;
+    border: 1px solid darkorange;
+}
+
+#Rooms .row .col-lg-4 .a a:hover {
+    background-color: #000;
+    color: white;
+    border: 1px solid white;
+}
+
+/* ------------------------------------rooms--end-------------------------- */
+/* ------------------------------------Services-------------------------- */
+
+
+#Services .row {
+    margin-top: 50px;
+}
+#Services{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+#Services .row .col-lg-7 img{
+height: 100%;   
+width: 100%;
+}
+#Services .row h5{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+#Services .row h5 span {
+    color: #e4b702;
+}
+#Services .row h5 p{
+    color: red;
+}
+#Services .row .col-lg-5 .a a{
+    text-decoration: none;  
+}
+
+#Services .row .col-lg-5 .a a h4{
+
+    color: #8f0000;
+    font-size: 30px;
+   margin-top: 30px;
+
+   
+}
+#Services .row .col-lg-5 .a a  p{
+   font-size: 16px;
+   font-weight: 500;
+   margin-top: 15px;
+   color: #000;
+}
+#Services .row .col-lg-5 .a a p span{
+    color: #e4b702;
+    font-size: 20px;
+    font-weight: 500;
+ }
+/* ------------------------------------Services--end-------------------------- */
+/* ------------------------------------team----------------------------------- */
+  #imag .row {
+                margin-top: 50px;
+            }
+            #imag{
+                text-align: center;
+                padding-top: 10px;
+                margin-top: 5px;
+            }
+
+            #imag .row h5{
+                font-size: 35px;
+                font-weight: 800;
+                text-align: center;
+            }
+            #imag .row h5 p{
+                color: red;
+            }
+            #imag .row h5 span {
+                color: #e4b702;
+            }
+            #imag .row .col-lg-3 .a{
+                height: 420px;
+                background-color: green;
+                text-align: center;
+                   position: relative;
+            }
+            #imag .row .col-lg-3 .a img{
+                height: 100%;
+                width: 100%;
+            }
+              #imag .row .col-lg-3 .a .b{
+                height: 80px;
+                width: 100%;
+                background-color: #aca278;
+                padding: 7px 0px;
+               position: absolute;
+               top: 400px;
+               transition:0.70s;
+            }
+
+           #imag .row .col-lg-3 .a .b:hover{
+               top: 340px;
+            
+            }
+               #imag .row .col-lg-3 .a  .b h5{
+               font-size:25px ;
+/*              color:blanchedalmond;*/
+              color:black;
+
+                
+            }
+               #imag .row .col-lg-3 .a .b h6{
+               font-size:17px ;
+               color:black;
+                
+            }
+                #imag .row .col-lg-3 .a .c{
+              background-color:black;
+              width: 100%;
+              height: 60px;
+            }
+              #imag .row .col-lg-3 .a .c ul a i{
+             
+             color: white;
+              font-size: 20px;   
+            }
+            #imag .row .col-lg-3{
+                margin-bottom: 100px;
+            }
+/* ------------------------------------team--end-------------------------- */
+/* ------------------------------------gallery-------------------------- */
+
+#Gallery .row {
+    margin-top: 50px;
+}
+#Gallery{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+#Gallery .row h5{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+#Gallery .row h5 span {
+    color: #e4b702;
+}
+#Gallery .row h5 p {
+    color:red;
+}
+#Gallery .row .col-lg-3{
+    height: 400px;
+
+}
+#Gallery .row .a .col-lg-4{
+    height: 500px;
+}
+#Gallery .row .col-lg-3 img{
+    height: 100%;
+    width: 100%;
+    padding: 20px 5px;
+}
+#Gallery .row .col-lg-3 img:hover{
+    height: 105%;
+    width: 105%;
+    transition: 1s
+}
+/* ------------------------------------gallery--end-------------------------- */
+/* -------------------------------------pricing------------------------------ */
+
+#Price .row {
+    margin-top: 50px;
+}
+#Price{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+#Price .row h5{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+#Price .row h5 span {
+    color: #e4b702;
+}
+#Price .row h5 p {
+    color:red;
+}
+
+#Price .row .col-lg-3 .a {
+    padding: 25px 5px;
+   border: 2px solid black;
+   border-radius: 10px;
+
+}
+#Price .row .col-lg-3 .a:hover {
+   background-color: #83784c;
+
+}
+#Price .row .col-lg-3 .a h4{
+    font-size: 25px;
+    color:rgb(137, 0, 0) ;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+
+}
+
+#Price .row .col-lg-3 .a h6{
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(32, 1, 1) ;
+}
+#Price .row .col-lg-3 .a p{
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px yellow;
+}
+#Price .row .col-lg-3 .a p span{
+   color: #e4b702;
+   text-shadow: 0px 3px 2px rgb(0, 0, 0);
+
+}
+#Price .row .col-lg-3 .a a{
+    text-decoration: none;
+    background-color: darkorange;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    padding: 10px 22px;
+}
+
+#Price .row .col-lg-3 .a a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 1.5s;
+ }
+/* --------------------------------------------pricing end-------------------------- */
+/* ---------------------------Contact------------- */
+
+#Contact .row {
+    margin-top: 50px;
+}
+#Contact{
+   
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+#Contact .row h5{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+#Contact .row h5 span {
+    color: #e4b702;
+}
+#Contact .row h5 p {
+    color:red;
+}
+
+#Contact .row .col-lg-6  {
+  padding: 25px 25px;
+  
+}
+
+#Contact .row .col-lg-6 h3 {
+    font-size: 27px;
+    font-weight: 600;
+    color: #702101;
+}
+#Contact .row .col-lg-6 p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #131212;
+}
+#Contact .row .col-lg-6 h6 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #131212;
+}
+#Contact .row #styl h6 span {
+   
+    color: green;
+}
+#Contact .row #styl h4 {
+   
+   font-size: 15px;
+}
+#Contact .row #styl h4 span {
+   
+    color: rgb(212, 97, 15);
+}
+/* -------------------------------Contact end------------------- */
+
+/* ---------------------------footer------------- */
+
+#foot h2{
+    font-size: 28px;
+    font-weight: 900;
+    
+    margin-top: 5px;
+   
+   
+}
+
+#foot h2 span{
+    color: #ffa500;
+}
+#foot{
+    text-align: center;
+}
+
+#foot .row .a .fa{
+    font-size: 20px;
+    color: white;
+    background-color:black;
+    padding: 10px;
+}
+#foot .row .a .fa:hover{
+   
+    background-color:#ffa500;
+    color: green;
+  
+}
+#foot .row h5{
+
+    font-size:21px;
+    color: rgb(0, 0, 0);
+     margin-top:10px ; 
+     font-weight: 900;
+    
+}
+#foot .row h5 span{
+   
+    color: rgb(138, 67, 6);
+    
+}
+
+#foot .row h6{
+
+    font-size:20px;
+    color:rgb(6, 126, 6);
+     margin-top:10px ;
+     margin-bottom: 17px; 
+     font-weight: 500;
+     font-weight: 800;
+}
+marquee{
+   margin-bottom: 5px;
+   
+   padding: 5px 0px;
+}
+
+marquee h5{
+    font-size: 18px;
+    font-weight: 650;
+    color: #000;
+}
+marquee h5 span{
+   
+    color: #f10202;
+}
+marquee h5 i{
+   
+    color:green;
+}
+/* ----------------------------footer end------------------ */
+
+@media(width<768px) {
+
+    #jumbo .container h5 {
+        font-size: 30px;
+    }
+
+    #jumbo .container p {
+        font-size: 15px;
+    }
+
+}
+
+@media (width>=768px) and (width<=991px) {
+
+    #jumbo .container h5 {
+        font-size: 50px;
+    }
+
+    #jumbo .containerp {
+        color: white;
+    }
+}
+
+@media(width<350px) {
+
+    #jumbo .containern h5 {
+        font-size: 20px;
+    }
+
+    #jumbo .container p {
+        font-size: 13px;
+    }
+   
+
+}
+
+@media(width>=1400px) {
+    #about .row .col-lg-5 {
+        height: 250px;
+    }
+}
